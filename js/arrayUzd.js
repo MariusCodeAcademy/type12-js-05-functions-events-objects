@@ -10,3 +10,6 @@ console.log('lake ===', lake);
 // 2. hammer is on the table
 // 3. sun is in the sky
 // 4. apple is with my sister
+
+// 5. is pav masyvo istraukti 'hammer', 'sun', 'table' ir isaugoti naujam masyve, nekeiciant orginalo
+// 6. i pav masyvo gala ideti 'Snikers'
