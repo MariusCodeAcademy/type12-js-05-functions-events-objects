@@ -10,7 +10,7 @@ console.log(names[1]);
 
 // skaiciu masyvas
 
-const numbers = [1, 5, 9, 12];
+let numbers = [1, 5, 9, 12];
 console.log('numbers ===', numbers);
 console.log(numbers[3]);
 
@@ -42,4 +42,17 @@ const colors = ['red', 'green', 'blue', 'violet', 'black'];
 for (let i = 0; i <= 2; i++) {
   // console.log('i ===', i);
   console.log(colors[i]);
+}
+
+// Array length
+
+numbers = [46, 1, 4, 78, 9, 5, 1, 4, 5, 521];
+console.log('numbers ===', numbers);
+console.log('numbers.length ===', numbers.length);
+// atspausdinti paskutini elementa bet kokio ilgio masyve
+console.log('numbers[numbers.length - 1] ===', numbers[numbers.length - 1]);
+
+// atspausdinti visus skaicius is bet kokio ilgio masyvo
+for (let i = 0; i < numbers.length; i++) {
+  console.log(`skaicius ${numbers[i]}`);
 }
